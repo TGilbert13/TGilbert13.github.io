@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trev Gilbert | Window Cleaning Services</title>
+<meta name="description" content="Trev Gilbert Window Cleaning Services — windows, UPVC, gutters and conservatories.">
+<style>
+:root {
+  --lime:#9bea35; --dark:#111414; --dark2:#1b2020; --light:#f5f6f3; --muted:#b8beb9;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--dark); color:white; }
+a { color:inherit; text-decoration:none; }
+.container { width:min(1100px,92%); margin:auto; }
+header { position:sticky; top:0; z-index:10; background:rgba(17,20,20,.94); backdrop-filter:blur(8px); border-bottom:1px solid #303535; }
+.nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.brand { font-weight:900; letter-spacing:.5px; }
+.brand span { color:var(--lime); }
+.navlinks { display:flex; gap:22px; font-weight:700; font-size:14px; }
+@media(max-width:650px) { .navlinks { display:none; } }
+.hero { padding:65px 0 45px; background:radial-gradient(circle at 75% 20%,#293029 0,#111414 50%); }
+.hero-grid { display:grid; grid-template-columns:1fr 1.15fr; align-items:center; gap:35px; }
+@media(max-width:800px) { .hero-grid { grid-template-columns:1fr; } }
+.eyebrow { color:var(--lime); font-weight:900; letter-spacing:2px; text-transform:uppercase; font-size:13px; }
+h1 { font-size:clamp(42px,7vw,76px); line-height:.95; margin:12px 0 20px; }
+h1 span { color:var(--lime); }
+.lead { color:var(--muted); font-size:19px; line-height:1.55; max-width:560px; }
+.buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+.btn { display:inline-block; padding:15px 22px; border-radius:10px; font-weight:900; }
+.primary { background:var(--lime); color:#101410; }
+.secondary { border:1px solid #5c655f; }
+.van { width:100%; border-radius:18px; box-shadow:0 20px 60px rgba(0,0,0,.45); }
+.section { padding:75px 0; }
+.section.alt { background:var(--light); color:#111; }
+h2 { font-size:38px; margin:0 0 14px; }
+.sub { color:#68706b; max-width:650px; line-height:1.6; }
+.cards { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:30px; }
+@media(max-width:800px) { .cards { grid-template-columns:repeat(2,1fr); } }
+@media(max-width:480px) { .cards { grid-template-columns:1fr; } }
+.card { padding:25px; border-radius:16px; background:#1b2020; border:1px solid #303535; }
+.alt .card { background:white; border:1px solid #e0e3df; }
+.icon { font-size:30px; color:var(--lime); margin-bottom:12px; }
+.card h3 { margin:0 0 8px; }
+.card p { margin:0; color:#9fa7a1; line-height:1.5; }
+.alt .card p { color:#68706b; }
+.contact { text-align:center; background:linear-gradient(135deg,#182018,#111414); }
+.contact .phone { font-size:clamp(30px,6vw,52px); font-weight:900; color:var(--lime); margin:18px 0; }
+footer { padding:28px 0; text-align:center; color:#8d9690; border-top:1px solid #303535; font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">TREV <span>GILBERT</span></div>
+    <nav class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Window Cleaning Services</div>
+      <h1>Clean windows.<br><span>Fresh look.</span></h1>
+      <p class="lead">Professional window cleaning and exterior cleaning services for homes and businesses.</p>
+      <div class="buttons">
+        <a class="btn primary" href="tel:07973885079">CALL 07973 885079</a>
+        <a class="btn secondary" href="#services">VIEW SERVICES</a>
+      </div>
+    </div>
+    <img class="van" src="trev-gilbert-van.png" alt="Trev Gilbert Window Cleaning Services van">
+  </div>
+</section>
+
+<section id="services" class="section alt">
+  <div class="container">
+    <h2>What we do</h2>
+    <p class="sub">Reliable exterior cleaning to keep your property looking its best.</p>
+    <div class="cards">
+      <div class="card"><div class="icon">▣</div><h3>Windows</h3><p>Professional window cleaning for a clean, clear finish.</p></div>
+      <div class="card"><div class="icon">◇</div><h3>UPVC Cleans</h3><p>Bring tired UPVC frames and surfaces back to life.</p></div>
+      <div class="card"><div class="icon">⌁</div><h3>Gutters</h3><p>Keep gutters clean and looking smart all year round.</p></div>
+      <div class="card"><div class="icon">⌂</div><h3>Conservatories</h3><p>Exterior cleaning for conservatory roofs and surfaces.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>A local service you can rely on.</h2>
+    <p class="sub">Trev Gilbert Window Cleaning Services provides professional window and exterior cleaning with a straightforward, friendly service. Get in touch for a quote or to arrange a clean.</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container">
+    <div class="eyebrow">Get in touch</div>
+    <h2>Ready for a cleaner finish?</h2>
+    <div class="phone">07973 885079</div>
+    <div class="buttons" style="justify-content:center">
+      <a class="btn primary" href="tel:07973885079">CALL NOW</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 Trev Gilbert Window Cleaning Services
+</footer>
+</body>
+</html>
